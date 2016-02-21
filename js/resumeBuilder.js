@@ -2,13 +2,14 @@
 var bio = {
 	"name": "dM",
 	"role": "Web developer",
-	"contacts": {
-		"mobile": "+44 (0) 7787 560 995",
-		"email": "mazurdv@gmail.com",
-		"github": "mazurdv",
-		"twitter": "@mazurdv",
-		"blog": "blog",
-		"location": "London, UK"
+	"contacts":
+		{
+			"mobile": "+44 (0) 7787 560 995",
+			"email": "mazurdv@gmail.com",
+			"github": "mazurdv",
+			"twitter": "@mazurdv",
+			"blog": "blog",
+			"location": "London, UK"
 		},
 	"welcomeMessage": "Welcome to my on-line resume",
 	"skills":
@@ -72,16 +73,22 @@ bio.display = function() {
 // Work
 var work = {
 	"jobs":
-	    [{"employer": "Sompo Canopius",
- 	     "title": "Credit Risk Analyst",
- 	     "location": "London, UK",
- 	     "dates": "September 2012 - present",
- 	     "description": "Description CNP"},
- 	     {"employer": "DirectLine Group",
- 	     "title": "Risk Analyst",
- 	     "location": "London, Bromley, UK",
- 	     "dates": "August 2010 - July 2012",
- 	     "description": "Description DLG"}]
+	    [
+		    {
+				"employer": "Sompo Canopius",
+				 "title": "Credit Risk Analyst",
+				 "location": "London, UK",
+				 "dates": "September 2012 - present",
+				 "description": "Description CNP"
+	 	 	},
+	 	     {
+				"employer": "DirectLine Group",
+				"title": "Risk Analyst",
+				"location": "London, Bromley, UK",
+				"dates": "August 2010 - July 2012",
+				"description": "Description DLG"
+	 	 	}
+ 	 	]
 	};
 
 work.display = function() {
@@ -113,14 +120,22 @@ work.display = function() {
 // Projects
 var projects = {
 	"projects":
-		[{"title": "CIB",
-		  "dates": "June 2015 - present",
-		  "description": "Description CIB",
-		  "images": ["images/img_1.jpg", "images/img_2.jpg"]},
-		{"title": "CIB copy",
-		  "dates": "Month1 2010 - Month2 2015",
-		  "description": "Description CIB copy",
-		  "images": ["images/img_3.jpg", "images/img_4.jpg"]}]
+		[
+			{
+				"title": "CIB",
+				"dates": "June 2015 - present",
+				"description": "Description CIB",
+				"images":
+					["images/img_1.jpg", "images/img_2.jpg"]
+			},
+			{
+				"title": "CIB copy",
+				"dates": "Month1 2010 - Month2 2015",
+				"description": "Description CIB copy",
+				"images":
+					["images/img_3.jpg", "images/img_4.jpg"]
+			}
+		]
 	};
 
 projects.display = function() {
@@ -151,34 +166,47 @@ projects.display = function() {
 // Education
 var education = {
 		"schools":
-	         [{"name": "Moscow Institue of Physics and Technology",
-	          "location": "Moscow, Russia",
-	          "degree": "MSc",
-	          "majors": "IT",
-	          "dates": 2007,
-	          "url": "https://mipt.ru/en/"},
-	          {"name": "National Research University Higher School of Economics",
-	          "location": "Moscow, Russia",
-	          "degree": "MSc",
-	          "majors": "Economics & risk management",
-	          "dates": 2007,
-	          "url": "https://www.hse.ru/en/"},
-	          {"name": "Moscow Institue of Physics and Technology",
-	          "location": "Moscow, Russia",
-	          "degree": "BSc",
-	          "majors": "Applied maths & physics",
-	          "dates": 2005,
-	          "url": "https://mipt.ru/en/"}
+	         [
+				{
+					"name": "Moscow Institue of Physics and Technology",
+					"location": "Moscow, Russia",
+					"degree": "MSc",
+					"majors": "IT",
+					"dates": 2007,
+					"url": "https://mipt.ru/en/"
+				},
+				{
+					"name": "National Research University Higher School of Economics",
+					"location": "Moscow, Russia",
+					"degree": "MSc",
+					"majors": "Economics & risk management",
+					"dates": 2007,
+					"url": "https://www.hse.ru/en/"
+				},
+				{
+					"name": "Moscow Institue of Physics and Technology",
+					"location": "Moscow, Russia",
+					"degree": "BSc",
+					"majors": "Applied maths & physics",
+					"dates": 2005,
+					"url": "https://mipt.ru/en/"
+				}
 	          ],
 	    "onlineCourses":
-	        [{"title": "Front-End Web Developer Nanodegree",
-	         "school": "Udacity",
-	         "date": 2016,
-	         "url": "https://www.udacity.com/"},
-	         {"title": "Web developement",
-	         "school": "LoftSchool",
-	         "date": 2015,
-	         "url": "http://loftschool.com/"}]
+			[
+				{
+					"title": "Front-End Web Developer Nanodegree",
+					"school": "Udacity",
+					"date": 2016,
+					"url": "https://www.udacity.com/"
+				},
+				 {
+					"title": "Web developement",
+					"school": "LoftSchool",
+					"date": 2015,
+					"url": "http://loftschool.com/"
+				}
+			]
 	    };
 
 education.display = function() {
